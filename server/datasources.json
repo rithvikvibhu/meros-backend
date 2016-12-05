@@ -1,0 +1,21 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongodb": {
+    "url": "",
+    "database": "meros",
+    "name": "mongodb",
+    "connector": "mongodb"
+  },
+  "bluemixcloudant": {
+    "url": "",
+    "database": "meros",
+    "username": "6098136b-071e-4f5f-bd58-fe5a5e8c9d3d-bluemix",
+    "password": "ff7d58eafe4ad518474b33181a681357cf2fab52455e8cb77fe4aa2b165a7c77",
+    "name": "bluemixcloudant",
+    "modelIndex": "",
+    "connector": "cloudant"
+  }
+}
