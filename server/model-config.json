@@ -17,19 +17,19 @@
     "dataSource": "db"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "bluemixcloudant",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "bluemixcloudant",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "bluemixcloudant",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "bluemixcloudant",
     "public": false
   },
   "campaign": {

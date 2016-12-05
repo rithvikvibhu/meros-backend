@@ -3,12 +3,6 @@
     "name": "db",
     "connector": "memory"
   },
-  "mongodb": {
-    "url": "",
-    "database": "meros",
-    "name": "mongodb",
-    "connector": "mongodb"
-  },
   "bluemixcloudant": {
     "url": "",
     "database": "meros",
