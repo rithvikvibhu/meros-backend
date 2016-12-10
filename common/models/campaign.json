@@ -24,16 +24,6 @@
     },
     "picture": {
       "type": "string"
-    },
-    "dateCreated": {
-      "type": "date"
-    },
-    "funds": {
-      "type": "number",
-      "default": 0
-    },
-    "deadline": {
-      "type": "date"
     }
   },
   "validations": [],
@@ -49,7 +39,7 @@
       "accessType": "*",
       "principalType": "ROLE",
       "principalId": "$everyone",
-      "permission": "ALLOW"
+      "permission": "DENY"
     },
     {
       "accessType": "READ",
@@ -65,10 +55,10 @@
       "property": "create"
     },
     {
-      "accessType": "WRITE",
       "principalType": "ROLE",
       "principalId": "$owner",
-      "permission": "ALLOW"
+      "permission": "ALLOW",
+      "property": "deleteById"
     }
   ],
   "methods": {}
