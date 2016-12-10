@@ -24,6 +24,12 @@
     },
     "picture": {
       "type": "string"
+    },
+    "funds": {
+      "type": "number"
+    },
+    "status": {
+      "type": "string"
     }
   },
   "validations": [],
